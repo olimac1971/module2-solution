@@ -12,7 +12,7 @@ body{background-color:#F7E8D1;
 @media (min-width: 992px) {.box {
   float: left;
   width: 25%;
-  margin:3%;
+  margin:4%;
   border:1px solid black;
   background-color:#ccc;
   
@@ -85,5 +85,6 @@ body{background-color:#F7E8D1;
   font-size:15px;
   margin:12% 6% 5% 5%;
   display:flex;
+  font-family: "Poppins";
   
 }
