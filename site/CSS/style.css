@@ -2,12 +2,16 @@
   box-sizing: border-box;
 }
 body{background-color:#F7E8D1;
-  font-family: helvetica;
-  text-align:justify;}
+  font-family: helvetica, "poppins";
+  text-align:justify;
+font-size:10px;}
+
 .row {display:table;
   width: 100%;
   overflow:auto;
 }
+h1{font-size: 175%;
+text-align: center;}
 
 @media (min-width: 992px) {.box {
   float: left;
@@ -54,6 +58,7 @@ body{background-color:#F7E8D1;
   padding:1%;
   width:23%;
   display:block;
+  font-size: 125%;
 }
 .p2{text-align:center;
   position:relative;
@@ -66,6 +71,7 @@ body{background-color:#F7E8D1;
   width:23%;
   overflow:auto;
   display:block;
+  font-size: 125%;
   
 }
 .p3{text-align:center;
@@ -79,10 +85,10 @@ body{background-color:#F7E8D1;
   width:23%;
   overflow:auto;
   display:block;
+  font-size: 125%;
   
 }
 .text{text-align:justify;
-  font-size:15px;
   margin:12% 6% 5% 5%;
   display:flex;
   font-family: "Poppins";
